@@ -34,7 +34,6 @@ model.setup(opt)               # regular setup: load and print networks; create 
 model.eval()
 
 PSNR_list = []
-SSIM_list = []
 N_channel_list = []
 count_list = [[]]*10
 PSNR_class_list = [[]]*10
